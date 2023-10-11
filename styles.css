@@ -1,0 +1,46 @@
+body {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  padding-inline: 30px;
+  background-image: url(./images/hack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button_container {
+  margin-top: 250px;
+}
+.finder {
+  background-color: rgb(48, 47, 47);
+  width: 200px;
+  height: 50px;
+}
+.finder_text {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.info_list {
+  margin-top: 120px;
+  background-color: white;
+  width: 250px;
+  height: 200px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.list_item {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.item_variables {
+  font-weight: 900;
+}
